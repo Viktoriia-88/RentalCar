@@ -1,0 +1,36 @@
+.header {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.logo {
+    width: 104px;
+    height: 16px;
+    margin: 26px 960px 26px 120px;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 32px;
+    width: 136px;
+    height: 20px;
+}
+
+.link {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    color: #101828;
+}
+
+.link:hover {
+    color: #0b44cd;
+}
+
+.link.active {
+    color: #0b44cd;
+}
